@@ -1,0 +1,98 @@
+}
+#toaster {
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+#header {
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+    border: 3px dotted black;
+    width: 95%;
+}
+#yes {
+    float: right;
+}
+#no {
+    float: left;
+}
+.button {
+    -moz-box-shadow:inset 0px 0px 0px 0px #d197fe;
+    -webkit-box-shadow:inset 0px 0px 0px 0px #d197fe;
+    box-shadow:inset 0px 0px 0px 0px #d197fe;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #24073b), color-stop(1, #7c16cb));
+    background:-moz-linear-gradient(center top, #24073b 5%, #7c16cb 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#24073b', endColorstr='#7c16cb');
+    background-color:#24073b;
+    -webkit-border-top-left-radius:42px;
+    -moz-border-radius-topleft:42px;
+    border-top-left-radius:42px;
+    -webkit-border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    border-top-right-radius:0px;
+    -webkit-border-bottom-right-radius:42px;
+    -moz-border-radius-bottomright:42px;
+    border-bottom-right-radius:42px;
+    -webkit-border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    border-bottom-left-radius:0px;
+    text-indent:0;
+    border:3px solid #9c33ed;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Comic Sans MS;
+    font-size:35px;
+    font-weight:bold;
+    font-style:normal;
+    height:50px;
+    line-height:50px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #7d15cd;
+}
+.button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7c16cb), color-stop(1, #24073b));
+    background:-moz-linear-gradient(center top, #7c16cb 5%, #24073b 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c16cb', endColorstr='#24073b');
+    background-color:#7c16cb;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+#tabby {
+    position: relative;
+    clear: both;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+}
+#grumpy {
+    position: relative;
+    clear: both;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+}
+div {
+    position: relative;
+}
+h4 {
+    position: relative;
+}
+#change {
+    height: 100px;
+    width: 150px;
+    font-family: Garamond;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 50px;
+    }
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
