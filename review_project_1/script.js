@@ -5,9 +5,8 @@ $(document).ready(function () {
     $('#no').click(function () {
         $('#grumpy').fadeIn(500);
     });
-});
-$(document).ready(function () {
+
     $('#change').click(function () {
-    $('#change').replaceWith('<h4>Goodbye Cruel World!</h4');
+        $('#change').replaceWith('<h4>Goodbye Cruel World!</h4');
     });
 });
